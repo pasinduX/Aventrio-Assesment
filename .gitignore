@@ -1,0 +1,61 @@
+# Node.js related
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build directories
+/dist
+/build
+/.next
+
+# System files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories for React (if using yarn or npm for both frontend and backend)
+front-end/node_modules/
+back-end/node_modules/
+
+# React app build artifacts
+build/
+public/
+
+# Testing files
+coverage/
+test-results/
+jest/
+
+# Server related
+*.pid
+*.seed
+
+# Mac OS related
+*.swp
+*~
+
+# IDE configuration files (e.g., VSCode, WebStorm)
+.vscode/
+.idea/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional typescript cache
+tsconfig.tsbuildinfo
